@@ -3,9 +3,9 @@
     grid-template-areas: "cabecera cabecera"
     "navegacion contenido"
     "piePagina piePagina";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px;
-    grid-gap:20px
+    grid-template-columns: 2fr 11fr;
+    grid-template-rows: 130px ;
+    grid-gap: 30px;
 }
 .paginaPrincipal header{
     grid-area: cabecera;
@@ -20,27 +20,29 @@
     grid-area: piePagina;
 }
 .paginaPrincipal nav p{
-    font-family: 'EB Garamond', serif;
+    font-family: 'Lora', serif;
+}
+.paginaPrincipal header p{
+    font-family: 'Lora', serif;
 }
 .paginaPrincipal article p{
-font-family: 'EB Garamond', serif;
+    font-family: 'Lora', serif;
 }
 .paginaPrincipal article p:hover{
-    color: #a5a5eb;
-    background-color: #7fffd4;
-    font-size: 18px;
+    color: #00573d;
+    background-color: #beedde;
+    font-size: 15px;
     cursor: pointer;
 }
 .paginaPrincipal nav ul li a{
     color: black;
-    font-size: 20px;
+    font-size: 2px;
     font-weight: bolder;
-    word-spacing: 20px;
     text-decoration: none;
-    padding: 25px;
+    padding: 15px;
 }
 .paginaPrincipal nav ul li a:hover{
     color: white;
-    background-color: #9b7d82;
-    border-bottom: 2px solid cyan;
+    background-color: #9488cf;
+    border-bottom: 3px solid #0004ff;
 }
